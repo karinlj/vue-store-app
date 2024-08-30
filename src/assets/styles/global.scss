@@ -1,0 +1,92 @@
+@import "./variables.scss";
+@import "./bootstrap-grid.min.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.9rem;
+  color: $textcolor;
+  background: $themecolorBg;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  position: relative;
+  line-height: 1.2;
+}
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: hotpink;
+}
+a {
+  color: $linkcolor;
+  text-decoration: none;
+}
+.router-link-exact-active {
+  color: $linkcolorActive;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+btn,
+.link-button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.3rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background: $themecolorBlue;
+  transition: all 0.3s ease;
+  color: #fff;
+  &:hover {
+    border: 2px solid $themecolorBlue;
+  }
+}
+.btn-small {
+  background: transparent;
+  border: none;
+  color: green;
+}
+main {
+  min-height: 80vh;
+}
+
+header,
+footer {
+  padding: 2rem 0;
+  a {
+    text-transform: uppercase;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      padding: 0.5rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+footer {
+  ul {
+    display: flex;
+  }
+}

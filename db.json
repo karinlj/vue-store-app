@@ -1,0 +1,522 @@
+{
+  "articles": [
+    {
+      "id": "7020725-03",
+      "name": "Polotröja Fiona",
+      "nameSeo": "polotroja-fiona",
+      "subBrand": "Ellos Collection",
+      "subBrandSeo": "ellos-collection",
+      "size": "XS",
+      "sku": "7020725-03-XS",
+      "inStock": true,
+      "currentPrice": 299,
+      "originalPrice": 399,
+      "discountAmount": 25,
+      "historicPrice": null,
+      "showDiscountPercentage": true,
+      "rating": "0",
+      "imageFront": {
+        "type": "Fm",
+        "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020725-03_Fs&mw={size}",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020725-03_Fm_M0096755&mw={size}",
+        "cardFs": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020725-03_Fs&mw={size}"
+      },
+      "imageAlternative": {
+        "type": "Bm",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020725-03_Bm_M0096755&mw={size}"
+      },
+      "images": [
+        {
+          "name": "ell_7020725-03_Fm_M0096755",
+          "type": "Fm",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020725-03_Fm_M0096755&mw={size}"
+        },
+        {
+          "name": "ell_7020725-03_Ff_M0096755",
+          "type": "Ff",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020725-03_Ff_M0096755&mw={size}"
+        },
+        {
+          "name": "ell_7020725-03_Fs",
+          "type": "Fs",
+          "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020725-03_Fs&mw={size}",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020725-03_Fs&mw={size}"
+        }
+      ],
+      "multiImages": true,
+      "skusData": [
+        {
+          "size": "XS",
+          "sku": "7020725-03-XS",
+          "inStock": true,
+          "currentPrice": 299,
+          "originalPrice": 399,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "S",
+          "sku": "7020725-03-S",
+          "inStock": true,
+          "currentPrice": 299,
+          "originalPrice": 399,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "M",
+          "sku": "7020725-03-M",
+          "inStock": true,
+          "currentPrice": 299,
+          "originalPrice": 399,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "L",
+          "sku": "7020725-03-L",
+          "inStock": true,
+          "currentPrice": 299,
+          "originalPrice": 399,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "XL",
+          "sku": "7020725-03-XL",
+          "inStock": true,
+          "currentPrice": 299,
+          "originalPrice": 399,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        }
+      ],
+      "labels": [
+        {
+          "url": "https://c1.amplience.net/c/ellos/label_CampaignPriceELL_se?SS24-1",
+          "width": 97,
+          "height": 17
+        },
+        {
+          "url": "https://c1.amplience.net/c/ellos/label_NewsELL_se?SS24-1",
+          "width": 58,
+          "height": 17
+        }
+      ],
+      "relatedArticles": [
+        {
+          "id": "7020725-03",
+          "image": {
+            "name": "ell_7020725-03_Fm_M0096755",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020725-03_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020725-03_Fm_M0096755&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020725-03_Fm_M0096755&mw={size}"
+          }
+        },
+        {
+          "id": "7020725-01",
+          "image": {
+            "name": "ell_7020725-01_Fm_M0096779",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020725-01_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020725-01_Fm_M0096779&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020725-01_Fs&mw={size}"
+          }
+        }
+      ],
+      "eprelId": "",
+      "isOutlet": false,
+      "isBestPrice": false,
+      "isPriceMatched": false,
+      "categories": [
+        "Ladies",
+        "Fashion",
+        "Sweaters & cardigans",
+        "Knitted sweaters"
+      ],
+      "color": "Svart",
+      "campaigns": [
+        {
+          "id": 4899594,
+          "name": "ladies-campaign-ranking",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 11476645,
+          "name": "fashion-1",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 11823733,
+          "name": "fashion-6",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 12088042,
+          "name": "off-duty",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7020734-01",
+      "name": "Tröja Tilly",
+      "nameSeo": "troja-tilly",
+      "subBrand": "Ellos Collection",
+      "subBrandSeo": "ellos-collection",
+      "size": "XS",
+      "sku": "7020734-01-XS",
+      "inStock": true,
+      "currentPrice": 224,
+      "originalPrice": 299,
+      "discountAmount": 25,
+      "historicPrice": null,
+      "showDiscountPercentage": true,
+      "rating": "0",
+      "imageFront": {
+        "type": "Fm",
+        "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-01_Fs&mw={size}",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-01_Fm_M0096754&mw={size}",
+        "cardFs": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-01_Fs&mw={size}"
+      },
+      "imageAlternative": {
+        "type": "Bm",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-01_Bm_M0096754&mw={size}"
+      },
+      "images": [
+        {
+          "name": "ell_7020734-01_Fm_M0096754",
+          "type": "Fm",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-01_Fm_M0096754&mw={size}"
+        },
+        {
+          "name": "ell_7020734-01_Ff_M0096754",
+          "type": "Ff",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-01_Ff_M0096754&mw={size}"
+        },
+        {
+          "name": "ell_7020734-01_Fs",
+          "type": "Fs",
+          "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-01_Fs&mw={size}",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-01_Fs&mw={size}"
+        }
+      ],
+      "multiImages": true,
+      "skusData": [
+        {
+          "size": "XS",
+          "sku": "7020734-01-XS",
+          "inStock": true,
+          "currentPrice": 224,
+          "originalPrice": 299,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "S",
+          "sku": "7020734-01-S",
+          "inStock": true,
+          "currentPrice": 224,
+          "originalPrice": 299,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "M",
+          "sku": "7020734-01-M",
+          "inStock": true,
+          "currentPrice": 224,
+          "originalPrice": 299,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "L",
+          "sku": "7020734-01-L",
+          "inStock": true,
+          "currentPrice": 224,
+          "originalPrice": 299,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "XL",
+          "sku": "7020734-01-XL",
+          "inStock": true,
+          "currentPrice": 224,
+          "originalPrice": 299,
+          "discountAmount": 25,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        }
+      ],
+      "labels": [
+        {
+          "url": "https://c1.amplience.net/c/ellos/label_CampaignPriceELL_se?SS24-1",
+          "width": 97,
+          "height": 17
+        },
+        {
+          "url": "https://c1.amplience.net/c/ellos/label_NewsELL_se?SS24-1",
+          "width": 58,
+          "height": 17
+        }
+      ],
+      "relatedArticles": [
+        {
+          "id": "7020734-01",
+          "image": {
+            "name": "ell_7020734-01_Fm_M0096754",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-01_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-01_Fm_M0096754&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-01_Fm_M0096754&mw={size}"
+          }
+        },
+        {
+          "id": "7020734-02",
+          "image": {
+            "name": "ell_7020734-02_Fm_M0096777",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-02_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-02_Fm_M0096777&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-02_Fs&mw={size}"
+          }
+        },
+        {
+          "id": "7020734-03",
+          "image": {
+            "name": "ell_7020734-03_Fm_M0096796",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-03_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-03_Fm_M0096796&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-03_Fs&mw={size}"
+          }
+        },
+        {
+          "id": "7020734-04",
+          "image": {
+            "name": "ell_7020734-04_Fm_M0096775",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-04_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-04_Fm_M0096775&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-04_Fs&mw={size}"
+          }
+        },
+        {
+          "id": "7020734-05",
+          "image": {
+            "name": "ell_7020734-05_Fm_M0096798",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-05_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-05_Fm_M0096798&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-05_Fs&mw={size}"
+          }
+        },
+        {
+          "id": "7020734-07",
+          "image": {
+            "name": "ell_7020734-07_Fm_M0096771",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7020734-07_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7020734-07_Fm_M0096771&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7020734-07_Fs&mw={size}"
+          }
+        }
+      ],
+      "eprelId": "",
+      "isOutlet": false,
+      "isBestPrice": false,
+      "isPriceMatched": false,
+      "categories": [
+        "Ladies",
+        "Fashion",
+        "Sweaters & cardigans",
+        "Knitted sweaters"
+      ],
+      "color": "Gråmelerad",
+      "campaigns": [
+        {
+          "id": 4899594,
+          "name": "ladies-campaign-ranking",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 11476645,
+          "name": "fashion-1",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 11823733,
+          "name": "fashion-6",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 12088042,
+          "name": "off-duty",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7021040-01",
+      "name": "Kort kappa med hög krage",
+      "nameSeo": "kort-kappa-med-hog-krage",
+      "subBrand": "Ellos Collection",
+      "subBrandSeo": "ellos-collection",
+      "size": "XS",
+      "sku": "7021040-01-XS",
+      "inStock": true,
+      "currentPrice": 899,
+      "originalPrice": 899,
+      "discountAmount": 0,
+      "historicPrice": null,
+      "showDiscountPercentage": true,
+      "rating": "0",
+      "imageFront": {
+        "type": "Fm",
+        "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7021040-01_Fs&mw={size}",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7021040-01_Fm_M0097873&mw={size}",
+        "cardFs": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7021040-01_Fs&mw={size}"
+      },
+      "imageAlternative": {
+        "type": "Bm",
+        "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7021040-01_Bm_M0097873&mw={size}"
+      },
+      "images": [
+        {
+          "name": "ell_7021040-01_Fm_M0097873",
+          "type": "Fm",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7021040-01_Fm_M0097873&mw={size}"
+        },
+        {
+          "name": "ell_7021040-01_Ff_M0097873",
+          "type": "Ff",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7021040-01_Ff_M0097873&mw={size}"
+        },
+        {
+          "name": "ell_7021040-01_Fs",
+          "type": "Fs",
+          "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7021040-01_Fs&mw={size}",
+          "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7021040-01_Fs&mw={size}"
+        }
+      ],
+      "multiImages": true,
+      "skusData": [
+        {
+          "size": "XS",
+          "sku": "7021040-01-XS",
+          "inStock": true,
+          "currentPrice": 899,
+          "originalPrice": 899,
+          "discountAmount": 0,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "S",
+          "sku": "7021040-01-S",
+          "inStock": true,
+          "currentPrice": 899,
+          "originalPrice": 899,
+          "discountAmount": 0,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "M",
+          "sku": "7021040-01-M",
+          "inStock": true,
+          "currentPrice": 899,
+          "originalPrice": 899,
+          "discountAmount": 0,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "L",
+          "sku": "7021040-01-L",
+          "inStock": true,
+          "currentPrice": 899,
+          "originalPrice": 899,
+          "discountAmount": 0,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        },
+        {
+          "size": "XL",
+          "sku": "7021040-01-XL",
+          "inStock": true,
+          "currentPrice": 899,
+          "originalPrice": 899,
+          "discountAmount": 0,
+          "historicPrice": null,
+          "showDiscountPercentage": true
+        }
+      ],
+      "labels": [
+        {
+          "url": "https://c1.amplience.net/c/ellos/label_NewsELL_se?SS24-1",
+          "width": 58,
+          "height": 17
+        }
+      ],
+      "relatedArticles": [
+        {
+          "id": "7021040-01",
+          "image": {
+            "name": "ell_7021040-01_Fm_M0097873",
+            "type": "Fm",
+            "thumb": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep2$&$et$&n=ell_7021040-01_Fs&mw={size}",
+            "card": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$el$&n=ell_7021040-01_Fm_M0097873&mw={size}",
+            "url": "https://assets.ellosgroup.com/i/ellos/b?$eg$&$em$&$ep$&$ed$&n=ell_7021040-01_Fm_M0097873&mw={size}"
+          }
+        }
+      ],
+      "eprelId": "",
+      "isOutlet": false,
+      "isBestPrice": false,
+      "isPriceMatched": false,
+      "categories": ["Ladies", "Fashion", "Jackets & coats", "Autumn jackets"],
+      "color": "Mörkblå",
+      "campaigns": [
+        {
+          "id": 4899594,
+          "name": "ladies-campaign-ranking",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 11823733,
+          "name": "fashion-6",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        },
+        {
+          "id": 12088042,
+          "name": "off-duty",
+          "validFrom": "1900-01-01T00:00:00Z",
+          "validTo": "9999-12-31T00:00:00Z"
+        }
+      ]
+    }
+  ]
+}
