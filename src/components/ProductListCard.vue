@@ -1,29 +1,14 @@
 <script setup>
-import { ref, computed, defineProps } from "vue";
+import { ref, computed } from "vue";
 
 const props = defineProps({
   article: Object,
 });
 
-//ref = reactive
-const showFullName = ref(false);
-
-const toggleExcerpt = () => {
-  showFullName.value = !showFullName.value;
-};
-
 const imageUrl = () => {
   let imageUrlBase = props.article.imageFront.card;
   return imageUrlBase.replace("{size}", "300");
 };
-
-const excerpt = computed(() => {
-  let prodName = props.article.name;
-  if (!showFullName.value) {
-    prodName = prodName.substring(0, 10) + "...";
-  }
-  return prodName;
-});
 </script>
 <template>
   <div class="product-card">
@@ -38,16 +23,16 @@ const excerpt = computed(() => {
     </div>
 
     <section class="product-card-content-container">
-      <h3>{{ excerpt }}</h3>
+      <h3>{{ article.name }}</h3>
+      <h4 class="sub-brand">{{ article.subBrand }}</h4>
+
+      <!-- <h3>{{ excerpt }}</h3>
       <button class="btn-small" @click="toggleExcerpt">
         {{ showFullName ? "Less" : "More" }}
-      </button>
-      <section class="product-card-meta">
-        <div class="price">
-          <span>Price:</span>
-          <p>: {{ article.currentPrice }}</p>
-        </div>
-      </section>
+      </button> -->
+      <div class="product-card-price">
+        <p>{{ article.currentPrice }} <span>sek</span></p>
+      </div>
     </section>
   </div>
 </template>
@@ -57,13 +42,11 @@ const excerpt = computed(() => {
 
 .product-card {
   transition: all 0.25s ease-out;
-  // color: ${colors.textcolor_dark};
+  cursor: pointer;
   background: $cardcolorBg;
   height: auto;
   position: relative;
   margin-bottom: 4rem;
-  /* border-radius: $themeBorderRadius;
-  box-shadow: $themeBoxShadow; */
   /* @media all and (min-width: $mobileM) {
     height: 28rem;
   }
@@ -73,6 +56,7 @@ const excerpt = computed(() => {
   &:hover {
     div,
     h3,
+    h4,
     p {
       color: $linkcolor;
       transition: 0.25s ease-in-out;
@@ -83,26 +67,21 @@ const excerpt = computed(() => {
   }
   .product-card-link {
     position: absolute;
-    /* top: 0;
+    top: 0;
     left: 0;
     bottom: 0;
-    right: 0; */
+    right: 0;
     /* z-index: 20; */
     color: transparent;
     text-decoration: none;
-    &:focus {
-      /* outline: solid 2px $textcolor_dark; */
+    /* &:focus {
       outline-offset: 5px;
       border-radius: 1px;
-    }
+    } */
   }
   .product-card-image-container {
-    /* border-top-left-radius: $themeBorderRadius;
-    border-top-right-radius: $themeBorderRadius; */
   }
   .product-card-image {
-    /* border-top-left-radius: $themeBorderRadius;
-    border-top-right-radius: $themeBorderRadius; */
     width: 100%;
     object-fit: cover;
     height: 100%;
@@ -121,19 +100,14 @@ const excerpt = computed(() => {
     /* min-height: 15rem; */
     min-height: 7rem;
   }
-  .product-card-meta {
-    div {
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 0.7rem;
-      margin-right: 0.5rem;
-      /* color: $text_gray; */
-      span {
-        margin-right: 0.5rem;
-        letter-spacing: 0.1px;
-        font-weight: 500;
-      }
-    }
+  .sub-brand {
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
+  .product-card-price {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
   }
 }
 </style>

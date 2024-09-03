@@ -1,25 +1,41 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import ProductListCard from "./ProductListCard.vue";
 
 defineProps({
   limit: Number,
-  showButton: {
+  showAllProdButton: {
+    type: Boolean,
+    default: false,
+  },
+  toggleListButton: {
     type: Boolean,
     default: false,
   },
 });
-const products = ref(null);
+//ref: reactive state
+const products = ref([]);
 const error = ref(null);
+
+// const showFullList = ref(false);
+
+// const toggleFullList = () => {
+//   showFullList.value = !showFullList.value;
+//   console.log("showFullList", showFullList.value);
+// };
+
+// const shortList = computed(() => {
+//   let products = products.value;
+
+//   if (!showFullList.value) {
+//     products = products.slice(0, 6);
+//   }
+//   return products.length;
+// });
 
 onMounted(async () => {
   try {
-    const response = await fetch(
-      // "http://localhost:3000/articles",
-      // "//www.ellos.se/api/articles/?path=/dam/mode",
-      "/api/?path=/dam/mode",
-      {}
-    );
+    const response = await fetch("/api/?path=/dam/mode", {});
     if (!response.ok) {
       throw Error("No data available");
     }
@@ -37,27 +53,28 @@ onMounted(async () => {
 
 <template>
   <section class="product-list">
-    <header>
-      <div class="container">
-        <h1>Damkläder</h1>
-      </div>
-    </header>
-
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4" v-for="p in products" :key="p.id">
-          <ProductListCard :article="p" />
-          <!-- <ProductListCard
+        <div
+          class="col-12 col-sm-6 col-lg-4"
           v-for="p in products.slice(0, limit || products.length)"
           :key="p.id"
-          :article="p"
-        /> -->
+        >
+          <!-- <div
+          class="col-12 col-sm-6 col-lg-4"
+          v-for="p in shortList"
+          :key="p.id"
+        > -->
+          <ProductListCard :article="p" />
         </div>
       </div>
+      <a href="/products" class="link-button" v-if="showAllProdButton"
+        >Se alla damkläder</a
+      >
+      <!-- <button v-if="toggleListButton" class="btn" @click="toggleFullList">
+        {{ showFullList ? "less" : "more" }}
+      </button> -->
     </div>
-  </section>
-  <section>
-    <button class="btn" v-if="showButton">View all products</button>
   </section>
 </template>
 

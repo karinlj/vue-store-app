@@ -7,12 +7,36 @@
   margin: 0;
 }
 
+.prompt-light {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-semibold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.prompt-bold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 html {
   height: 100%;
 }
 body {
   position: relative;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 0.9rem;
   color: $textcolor;
   background: $themecolorBg;
@@ -26,10 +50,13 @@ h5 {
   line-height: 1.2;
 }
 h1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  color: hotpink;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 a {
   color: $linkcolor;
@@ -44,20 +71,24 @@ ol {
   padding: 0;
   list-style: none;
 }
-btn,
+
+// $themecolorBtnFocus: #b98980;
+.btn,
 .link-button {
-  border-radius: 8px;
+  border-radius: $themeBorderRadius;
   border: 2px solid transparent;
-  padding: 0.3rem 1.1rem;
+  padding: 0.6rem 0.8rem;
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  background: $themecolorBlue;
+  background: $themecolorBtnBg;
   transition: all 0.3s ease;
-  color: #fff;
+  color: $textcolor;
+  text-align: center;
+  display: inline-block;
   &:hover {
-    border: 2px solid $themecolorBlue;
+    background: $themecolorBtnHoverBg;
   }
 }
 .btn-small {
@@ -67,26 +98,10 @@ btn,
 }
 main {
   min-height: 80vh;
+  padding: 3rem 0 5rem 0;
 }
-
-header,
-footer {
-  padding: 2rem 0;
-  a {
-    text-transform: uppercase;
-  }
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    li {
-      padding: 0.5rem;
-      margin-left: 1rem;
-    }
-  }
-}
-
-footer {
-  ul {
-    display: flex;
-  }
+.page-header {
+  padding: 1.5rem 0;
+  min-height: 5rem;
+  text-align: center;
 }

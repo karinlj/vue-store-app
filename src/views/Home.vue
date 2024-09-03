@@ -1,43 +1,58 @@
-<script setup></script>
+<script setup>
+import ImageGrid from "../components/ImageGrid.vue";
+import ProductList from "../components/ProductList.vue";
+
+const sections = ["dam", "herr", "barn", "hem", "sport", "underkläder", "skor"];
+</script>
+
 <template>
-  <div>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <router-link to="/">Home</router-link>
-            <router-link to="/products">Products</router-link>
+  <main>
+    <div class="container">
+      <header class="page-header">
+        <div class="container">
+          <h1>Upptäck det senaste inom mode</h1>
+        </div>
+      </header>
+
+      <section class="sections">
+        <ul class="sections-list">
+          <li v-for="(s, index) in sections" :key="index">
+            <button class="btn section-btn">{{ s }}</button>
+          </li>
+        </ul>
+      </section>
+      <ImageGrid />
+
+      <section class="home-product-list">
+        <header class="page-header">
+          <div class="container">
+            <h2>Damkläder</h2>
           </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <div class="container">
-        <!-- output page content -->
-        <!-- <slot /> -->
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-          quisquam facere tenetur minima rem consequatur laboriosam explicabo
-          numquam impedit nulla, nisi totam veniam aspernatur consequuntur quia
-          necessitatibus repellendus. Asperiores, blanditiis.
-        </p>
-      </div>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col">footer</div>
-        </div>
-      </div>
-    </footer>
-  </div>
+        </header>
+        <ProductList :limit="6" :showAllProdButton="true" />
+      </section>
+    </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  color: red;
+@import "../assets/styles/variables.scss";
+.sections-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  li {
+    padding: 0.5rem;
+    /* width: 50%;
+    @media all and (min-width: $desktop) {
+      width: auto;
+    } */
+  }
+}
+.section-btn {
+  padding: 0.6rem 1.2rem;
+}
+.home-product-list {
+  margin-top: 3rem;
 }
 </style>

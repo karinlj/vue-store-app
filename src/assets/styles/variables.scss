@@ -1,4 +1,4 @@
-$themeBorderRadius: 20px;
+$themeBorderRadius: 4px;
 $themeBoxShadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 
 $mobileXS: 480px;
@@ -10,7 +10,14 @@ $desktop: 1400px;
 $desktopL: 1600px;
 
 //bg
-$themecolorBg: #f9f9f9;
+$themecolorBg: #fff; //#f9f9f9;
+$themecolorBeigeBg: #faf7f4;
+$themecolorDarkBg: #474747;
+
+$themecolorBtnBg: #f5efe6;
+$themecolorBtnHoverBg: #e8daca;
+$themecolorBtnFocus: #b98980;
+
 $cardcolorBg: #f2f2f2;
 $themecolorBlue: #0063cc;
 $themecolorBlueDarker: #004db3;
