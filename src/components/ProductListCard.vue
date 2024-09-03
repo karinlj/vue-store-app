@@ -1,10 +1,7 @@
 <script setup>
-import { ref, computed } from "vue";
-
 const props = defineProps({
   article: Object,
 });
-
 const imageUrl = () => {
   let imageUrlBase = props.article.imageFront.card;
   return imageUrlBase.replace("{size}", "300");
@@ -26,10 +23,6 @@ const imageUrl = () => {
       <h3>{{ article.name }}</h3>
       <h4 class="sub-brand">{{ article.subBrand }}</h4>
 
-      <!-- <h3>{{ excerpt }}</h3>
-      <button class="btn-small" @click="toggleExcerpt">
-        {{ showFullName ? "Less" : "More" }}
-      </button> -->
       <div class="product-card-price">
         <p>{{ article.currentPrice }} <span>sek</span></p>
       </div>
@@ -47,18 +40,13 @@ const imageUrl = () => {
   height: auto;
   position: relative;
   margin-bottom: 4rem;
-  /* @media all and (min-width: $mobileM) {
-    height: 28rem;
-  }
-  @media all and (min-width: $desktopL) {
-    height: 31rem;
-  } */
+
   &:hover {
     div,
     h3,
     h4,
     p {
-      color: $linkcolor;
+      color: $linkcolorActive;
       transition: 0.25s ease-in-out;
     }
     a {
@@ -74,30 +62,28 @@ const imageUrl = () => {
     /* z-index: 20; */
     color: transparent;
     text-decoration: none;
-    /* &:focus {
-      outline-offset: 5px;
-      border-radius: 1px;
-    } */
-  }
-  .product-card-image-container {
   }
   .product-card-image {
     width: 100%;
     object-fit: cover;
     height: 100%;
     max-width: 100%;
-    transition: all 0.2s ease-in;
+    transition: scale 0.3s ease-in;
+    position: relative;
+    z-index: 20;
     &:hover {
-      width: 110%;
-      max-width: 110%;
-      height: auto;
-      /* object-fit: none; */
+      z-index: 30;
+      scale: 1.2;
+      @media all and (min-width: $mobileM) {
+        scale: 1.3;
+      }
+      @media all and (min-width: $desktop) {
+        scale: 1.4;
+      }
     }
   }
-
   .product-card-content-container {
     padding: 1rem;
-    /* min-height: 15rem; */
     min-height: 7rem;
   }
   .sub-brand {

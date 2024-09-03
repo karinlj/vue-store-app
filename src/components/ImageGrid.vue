@@ -35,7 +35,7 @@ const images = [
   <section class="image-grid">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-6" v-for="i in images" :key="i.id">
+        <div class="col-12 col-sm-6" v-for="i in images" :key="i.id">
           <ImageCard :image="i" />
         </div>
       </div>
@@ -43,7 +43,4 @@ const images = [
   </section>
 </template>
 
-<style lang="scss" scoped>
-.image-grid {
-}
-</style>
+<style lang="scss" scoped></style>

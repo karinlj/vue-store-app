@@ -17,13 +17,24 @@ defineProps({
 
     <div class="image-grid-card-content">
       <h3 class="image-text">{{ image.title }}</h3>
-      <a href="/products" class="link-button image-btn">{{ image.btnText }}</a>
-      <!-- <button class="btn image-btn"></button> -->
+      <a href="/products/dam" class="link-button image-btn">{{
+        image.btnText
+      }}</a>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+@import "../assets/styles/variables.scss";
+.image-grid-card {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.2s ease-in;
+  }
+}
 .image-grid-card-link {
   position: absolute;
   top: 0;
@@ -33,8 +44,6 @@ defineProps({
   /* z-index: 20; */
   color: transparent;
   text-decoration: none;
-}
-.image-grid-card-content {
 }
 .image-text {
   color: #fff;
@@ -48,8 +57,12 @@ defineProps({
 .image-btn {
   min-width: 10rem;
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -15%);
+  white-space: nowrap;
+  @media all and (min-width: $desktop) {
+    top: 85%;
+  }
 }
 </style>

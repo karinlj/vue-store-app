@@ -7,9 +7,9 @@
           <nav class="footer-nav">
             <h4>Mina sidor</h4>
             <ul>
-              <li><a href="/">Mina sidor</a></li>
-              <li><a href="/">Mina sidor</a></li>
-              <li><a href="/">Mina sidor</a></li>
+              <li><a href="/">Mina beställningar</a></li>
+              <li><a href="/">Min faktura/konto</a></li>
+              <li><a href="/">Min profil</a></li>
             </ul>
           </nav>
         </div>
@@ -37,11 +37,18 @@
 @import "../assets//styles/variables.scss";
 footer {
   background: $themecolorDarkBg;
-  padding: 1.5rem 0;
+  padding: 3rem 01.5rem 0;
   min-height: 20rem;
+  h4 {
+    margin-bottom: 1rem;
+  }
+  a {
+    color: #fff;
+  }
 }
 .footer-nav {
   color: #fff;
+  pointer-events: none;
 }
 .footer-logo {
   margin-top: 3rem;

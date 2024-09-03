@@ -2,7 +2,8 @@
 import ImageGrid from "../components/ImageGrid.vue";
 import ProductList from "../components/ProductList.vue";
 
-const sections = ["dam", "herr", "barn", "hem", "sport", "underkläder", "skor"];
+const activeSections = ["dam", "herr"];
+const passiveSections = ["barn", "hem", "sport", "underkläder", "skor"];
 </script>
 
 <template>
@@ -16,8 +17,19 @@ const sections = ["dam", "herr", "barn", "hem", "sport", "underkläder", "skor"]
 
       <section class="sections">
         <ul class="sections-list">
-          <li v-for="(s, index) in sections" :key="index">
-            <button class="btn section-btn">{{ s }}</button>
+          <li v-for="(s, index) in activeSections" :key="index">
+            <router-link class="link-button" :to="`/products/${s}`">{{
+              s
+            }}</router-link>
+          </li>
+        </ul>
+        <ul class="sections-list">
+          <li
+            v-for="(s, index) in passiveSections"
+            :key="index"
+            class="passive-sections"
+          >
+            <router-link class="link-button" to="/">{{ s }}</router-link>
           </li>
         </ul>
       </section>
@@ -37,16 +49,22 @@ const sections = ["dam", "herr", "barn", "hem", "sport", "underkläder", "skor"]
 
 <style lang="scss" scoped>
 @import "../assets/styles/variables.scss";
-.sections-list {
+.sections {
   display: flex;
   justify-content: center;
+}
+.sections-list {
+  display: flex;
   margin-bottom: 2rem;
   li {
     padding: 0.5rem;
-    /* width: 50%;
-    @media all and (min-width: $desktop) {
-      width: auto;
-    } */
+  }
+}
+.passive-sections {
+  pointer-events: none;
+  display: none;
+  @media all and (min-width: $mobileM) {
+    display: block;
   }
 }
 .section-btn {

@@ -1,5 +1,46 @@
-# Vue 3 + Vite
+# Vue STore App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Vue Store App - Assignment for Ellos.
+Built with Vite + Vue.js
+
+![Screenshot](/src/assets/Screenshot.jpg?raw=true "Screenshot")
+
+### Prerequisites
+
+NodeJS
+
+## Installation
+
+To clone
+
+`git clone https://github.com/karinlj/vue-store-app.git`
+
+To install
+
+`cd vue-store-app`
+
+`npm install`
+
+To run
+
+`npm run dev`
+
+## Built With
+
+- Vite
+- Vue.js
+- Scss
+
+## Author
+
+- **Karin Ljunggren** - [karinlj](https://github.com/karinlj)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+```
+
+```
