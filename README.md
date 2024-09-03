@@ -1,4 +1,4 @@
-# Vue STore App
+# Vue Store App
 
 ## Description
 
@@ -20,6 +20,10 @@ At the bottom there is a link to products page for 'dammode'
 
 The links on the products do not go to a single product in this app.
 At the bottom there is a link to go to top of page.
+
+Another time I would have wanted to use Typescript and write some tests.
+
+Enjoy!
 
 ![Screenshot](/src/assets/Screenshot.jpg?raw=true "Screenshot")
 
@@ -48,6 +52,7 @@ To run
 - Vite
 - Vue.js
 - Scss
+- Bootstrap grid
 
 ## Author
 
